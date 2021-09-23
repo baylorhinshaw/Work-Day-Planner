@@ -6,3 +6,12 @@ function displayDay() {
 }
 
 displayDay();
+
+for (let hours = 0; hours <= 9; hours++) {
+    let index = hours;
+
+    let $rowsDiv = $('<div>');
+    $rowsDiv.addClass('rows');
+    $rowsDiv.addClass('schedulerRow')
+
+}
